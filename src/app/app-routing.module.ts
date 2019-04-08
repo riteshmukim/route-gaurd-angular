@@ -16,6 +16,11 @@ const routes: Routes = [
   {
     path: 'compose',
     component: ComposeComponent
+  },
+  {
+    path: 'compose',
+    component: ComposeComponent,
+    outlet: 'popup'
   }
 
 ];
