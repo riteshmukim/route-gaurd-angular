@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./crisis-center.component.css']
 })
 export class CrisisCenterComponent implements OnInit {
+  crisis: any;
+  editName: any;
+  dialogService: any;
 
   constructor() { }
 
